@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("const content = document.querySelector('#content');\n\nconst headline = document.createElement('h1');\nconst image = document.createElement('img');\nconst paragraph = document.createElement('p');\n\nheadline.innerText = 'Restaurant-Page';\nimage.src = '../assets/images/howcuttingdo.jpg';\nimage.alt = 'food'\nparagraph.innerText = 'This restaurant is amazingly simple and still able to satisfy everybody with familiar taste and caring service.'\n\ncontent.appendChild(headline);\ncontent.appendChild(image);\ncontent.appendChild(paragraph);\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ })
 
