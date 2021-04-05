@@ -5,7 +5,7 @@ const contact = () => {
   const title = document.createElement('h1');
   title.classList = 'container text-center main-headline';
   title.textContent = 'Contact';
-  
+
   const paragraph = document.createElement('p');
   paragraph.classList = 'container text-center about-text py-5';
   paragraph.innerText = 'Twitter: @Restaurant-Page\n\nFacebook: Restaurant Page';
